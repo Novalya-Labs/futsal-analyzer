@@ -1,9 +1,11 @@
-import LiveStream from "@/components/LiveStream";
+import BodyDetection from "@/components/BodyDetection";
+import HomeLayout from "./home.layout";
 
 export default function HomePage() {
 	return (
-		<div>
-			<LiveStream />
-		</div>
+		<HomeLayout>
+			{/* <LiveStream /> */}
+			<BodyDetection />
+		</HomeLayout>
 	);
 }
